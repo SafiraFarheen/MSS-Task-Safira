@@ -16,3 +16,9 @@ class Book:
         print("Author: " + self.author)
         print("Genre: " + self.genre)
 
+# Creating an instance of the Book class
+book1 = Book("Harry Potter and the Philosopher's Stone", "J.K. Rowling", "Fantasy")
+
+# Displaying information about the book
+book1.display_information()
+
