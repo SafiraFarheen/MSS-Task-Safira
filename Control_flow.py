@@ -1,5 +1,7 @@
 #Control flow
 
+mixed_data = [7,1.8,"Python",34,56.5,"Data",False,"Java"]
+
 def calculate_discount(original_price,discount_percentage=10):
     discounted_price = original_price - (original_price*discount_percentage/100)
     return discounted_price
